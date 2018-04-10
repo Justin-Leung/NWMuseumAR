@@ -40,6 +40,7 @@
 		84E8CFA8206DFED5006B5FCB /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8CFA7206DFED5006B5FCB /* StatusViewController.swift */; };
 		D0283A19207C95570095B513 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0283A18207C95570095B513 /* Onboarding.storyboard */; };
 		D0283A1E207C95D30095B513 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0283A1D207C95D30095B513 /* OnboardingViewController.swift */; };
+		D0283A20207C98740095B513 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0283A1F207C98740095B513 /* SwipingController.swift */; };
 		D985EF372036D2B00072B377 /* ProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985EF362036D2B00072B377 /* ProgressCell.swift */; };
 		DD044B28207C325400BF20FD /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DD044B26207C325400BF20FD /* spark.png */; };
 		DD044B29207C325400BF20FD /* Explosion.scnp in Resources */ = {isa = PBXBuildFile; fileRef = DD044B27207C325400BF20FD /* Explosion.scnp */; };
@@ -96,6 +97,7 @@
 		CCCCFF4855AE209B0DF2CE63 /* Pods_NWMuseumAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NWMuseumAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0283A18207C95570095B513 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		D0283A1D207C95D30095B513 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		D0283A1F207C98740095B513 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 		D985EF362036D2B00072B377 /* ProgressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCell.swift; sourceTree = "<group>"; };
 		DD044B26207C325400BF20FD /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		DD044B27207C325400BF20FD /* Explosion.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explosion.scnp; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				D0283A1D207C95D30095B513 /* OnboardingViewController.swift */,
+				D0283A1F207C98740095B513 /* SwipingController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 				848FBAB620648F3D00E56D77 /* LocationManager.swift in Sources */,
 				84E8CFA8206DFED5006B5FCB /* StatusViewController.swift in Sources */,
 				848FBAB820648F3D00E56D77 /* LinkedList.swift in Sources */,
+				D0283A20207C98740095B513 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

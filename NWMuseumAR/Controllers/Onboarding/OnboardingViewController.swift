@@ -72,7 +72,7 @@ class OnboardingViewController: UIViewController
     private let pageControl: UIPageControl = {
         let pc = UIPageControl()
         pc.currentPage = 0
-        pc.numberOfPages = 3
+        pc.numberOfPages = 4
         pc.pageIndicatorTintColor = .mainLightRed
         pc.currentPageIndicatorTintColor = .mainRed
         return pc
