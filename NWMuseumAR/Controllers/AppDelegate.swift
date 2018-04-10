@@ -27,7 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             homeViewController = MainPageViewController()
         } else {
             // Show tutorial, add launchedbefore to storage
-            homeViewController = TutorialPageViewController.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+            //homeViewController = TutorialPageViewController.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+            homeViewController = OnboardingViewController()
             //UserDefaults.standard.set(true, forKey: "launchedBefore")
         }
         
